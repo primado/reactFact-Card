@@ -109,10 +109,15 @@ main {
     
 }
 .content-logo {
-    margin-right: -1.5em;
+    margin-right: -6.8em;
 }
 .react-logo-2 {
-    width: 8.5em;
-   
-    
+    width: 6.5em;
 }
+
+
+/* @media only screen and (max-width: 600px) {
+    .container {
+        max-width: 470px;
+    }
+} */

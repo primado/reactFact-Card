@@ -4,11 +4,15 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 4em 0;
+}
+
 .main-flex {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+   
 }
 
 .container {
@@ -17,6 +21,7 @@
     align-items: center;
     border: 2px solid black;
     width: 550px;
+    
 
 }
 
@@ -46,13 +51,21 @@
 }
 
 .nav-text {
-    color: #fff;
+    color: #DEEBF8;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 
 /***** Main *****/
+
+main {
+    background-image: url("../assets/react-group.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 500%;
+}
+
 
 .container {
     background-color: #282D35;
@@ -64,49 +77,42 @@
 
 .main-content  {
     padding: 2em 0;
-
 }
 
 .main-content h1 {
     padding: .6em 0;
-    margin-left: -.6em;
+    text-align: left;
+    margin-left: -2.5em;
+    letter-spacing: -0.05em;
+    
 }
 
 .content-flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 
 }
 
-.content-flex ul {
-    width: 23em;
-    list-style: none;
-    margin-left: -.5em;
+ .main-list {
+    max-width: 23em;
+    margin-left: -2.5em;
 }
 
 
 
-.content-flex ul li::before {
-    content: "\2022";
-    line-height: 1.8em;
+.main-list > li::marker{
+    line-height: 2.5em;
     color: #61DAFB;
-    display: inline-block;
-    width: 1.5em;
-    font-weight: 500;
+    font-size: 1.3em;
     
 }
-
-.content-flex ul li::marker {
-    content: " ";
+.content-logo {
+    margin-right: -1.5em;
 }
-
-
-
-/* .react-logo-2 g {
-    fill: #33373E;
+.react-logo-2 {
+    width: 8.5em;
+   
+    
 }
-.react-logo-2 path {
-    stroke: #33373E;
-    stroke-width: 10px;
-} */

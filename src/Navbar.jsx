@@ -5,7 +5,7 @@ import "./css/style.css"
 
 function Navbar() {
     return (
-        <div>
+        <div className="div">
             <div className="main-flex">
                 <div className="container">
                     <nav className="nav">

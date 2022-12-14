@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from "./Navbar"
-import Main from "./Main"
+import Main from "./main"
 
 // ReactDOM.createRoot(document.getElementById('root')).render(
 //     <React.StrictMode>
